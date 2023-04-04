@@ -152,6 +152,9 @@ body {
   color: #000;
   padding: 12px 10px 10px 48px;
   text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .card-btn::before {
@@ -167,27 +170,114 @@ body {
   bottom: 5px;
 }
 
-.sunset {
-  background-image: url(/images/sunset.jpg);
+.example {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sunset {
+  background-image: url(/images/sunset.jpg);
+}
+
+.example-inner {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  color: #fff;
-}
-
-.sunset-inner {
-  display: flex;
-  flex-direction: column;
-  padding: 260px 0 260px 900px;
+  padding-right: 88px;
 }
 
 .tools {
+  display: flex;
   background-color: #000;
+  height: 540px;
+}
+.tools-item {
+  padding: 172px 106px 152px 100px;
+}
+
+.tools-title__h3 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  overflow: hidden;
+  color: #c0c0c0;
+  margin: 0 0 6px 0;
+}
+
+.tools-title {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 14px 0;
+}
+
+.tools-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.monstera {
+  background-image: url(/images/monstera.jpg);
+}
+
+.past__clients {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.past__client-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 42px;
+}
+
+.past__clients-title {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.past__clients-text {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #c0c0c0;
+  margin-bottom: 22px;
+}
+
+.past__clients-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.past__clients-logo {
+  margin-right: 108px;
+}
+
+.himalayas {
+  background-image: url(/images/star.jpg);
+}
+
+.touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
